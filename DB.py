@@ -54,9 +54,3 @@ cursor.execute("""CREATE TABLE IF NOT EXISTS mytable(
 #   (SELECT count(*)
 #    FROM mytable
 #    WHERE address is NULL) as is_null;
-
-# второе задание хз
-# SELECT (SELECT count(*)
-#         FROM mytable
-#         WHERE raw_region = handled_region AND raw_country = handled_country AND raw_city = handled_city AND
-#               raw_street = handled_street AND raw_house_num = handled_house_num AND raw_block = handled_block)
